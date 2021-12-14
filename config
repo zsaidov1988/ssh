@@ -1,0 +1,10 @@
+Host gitlab.abutech.uz
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/gitlab_abutech;
+
+Host zafar.abutech.uz
+  Hostname 139.177.182.185
+  User zafar
+  PubKeyAuthentication yes
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/id_rsa
